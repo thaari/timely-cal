@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Use the font name you selected */
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    color: #333;
+    z-index: -100;
+  }
+
+.Bg{
+  background-color: rgba(77, 206, 249, 0.862);
+
+}
+  .calculator {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px; /* Increase padding to make the calculator bigger */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px; /* Add margin to the calculator */
+  }
+  
+.calculator input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add medium shadow to the input */
+  }
+
+  .calculator-container {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+    
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .close-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add medium shadow to the buttons */
+  }
+  
+  
+  .result {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  
+  .result-container {
+    font-size: 20px;
+    color: #fff;
+  }

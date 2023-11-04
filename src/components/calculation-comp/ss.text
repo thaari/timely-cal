@@ -1,0 +1,28 @@
+I want develope minutes and seconds time calculator ,
+    
+   1. user can in add multiple time values 
+            ex- 1.2+0.60+20+30
+
+   2. when user add values like that app need to show final result.
+
+   3. consider that the right side of the decimal point is minutes and left side is seconds.
+            ex- 0(minutes) . 60(seconds)
+
+   4. if the right side (seconds) value become 60 consider it as 1 minute.
+
+   5. this calculator want handle sunstractions to (-)
+
+   6. add "AC" , "+" , "-" and 0 to 1 buttons to user interface .
+
+   7. this mus be a reeact Typescript app
+
+
+
+I want to add popup window to my react type script app ,
+
+ 1.this popup is for introductons to use calculator 
+ 2.small "i" icon need show show in page conner 
+ 3.when that i icon click popup need pop and show the massage 
+ 4. create css style also 
+ 5.  use glassmorphism design style
+
